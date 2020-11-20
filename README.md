@@ -12,8 +12,8 @@ Figura 3- Cockpit Overview
 Na solução final, os dados consumidos por estes componentes devem ter origem na leitura CAN do veículo. Contudo, para uma versão inicial é preciso que os dados sejam simulados - considerando uma certa lógica - para que possam ser consumidos pelo serviço do cockpit.
 Considerando este cenário, escreva um simulador (em C ou C++) que gere, randomicamente, valores para o velocímetro (na faixa de 0 a 160 como mostra a figura 3); valores para o marcador de velocidade sugerida – vide item (2) da figura 3 - (apenas valores cuja divisão por 10 resulta em um número inteiro, na faixa de 0 a 100); além disso, o simulador deve retornar uma cor no formato String indicando a situação do carro considerando sua velocidade atual e a velocidade sugerida, sendo: VERMELHO caso a velocidade esteja > ao valor do marcador; deve imprimir a cor AMARELA caso a velocidade esteja entre o valor do marcador e o mesmo valor decrescido de 20%; para velocidades abaixo dos 20% a cor VERDE. O output do simulador deve estar no formado chave:valor.
 Exemplo de output do simulador:
- velocidade: 64
- marcador_velocidade_sugerida: 80
- situacao: amarela
+- velocidade: 64
+- marcador_velocidade_sugerida: 80
+- situacao: amarela
 Disponibilize o código bem como instruções para compilação.
 -----------------------------------
