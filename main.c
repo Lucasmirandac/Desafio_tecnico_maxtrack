@@ -10,7 +10,7 @@ int velocidade_permitida (){
     int i;
     int velocidade_permitida;
     srand(time(NULL));  //função utilizada para alterar o valor de rand
-    velocidade_permitida = 30 + rand()%10*7; // Esta atribuição gera valores de 0 a 100 com um mínimo de 30
+    velocidade_permitida = 30 + rand()%7*10; // Esta atribuição gera valores de 0 a 100 com um mínimo de 30
 
     return velocidade_permitida;
 }
